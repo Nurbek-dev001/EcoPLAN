@@ -1,0 +1,15 @@
+{
+  "experimentalServices": {
+    "frontend": {
+      "rootDirectory": ".",
+      "framework": "vite",
+      "routePrefix": "/"
+    },
+    "backend": {
+      "rootDirectory": "backend",
+      "entrypoint": "main.py",
+      "runtime": "python3.12",
+      "routePrefix": "/api"
+    }
+  }
+}
