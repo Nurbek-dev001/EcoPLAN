@@ -6,7 +6,7 @@
     },
     "backend": {
       "entrypoint": "backend/main.py",
-      "runtime": "python3.12",
+      "runtime": "python3.11",
       "routePrefix": "/api"
     }
   }
