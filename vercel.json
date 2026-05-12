@@ -5,8 +5,7 @@
       "routePrefix": "/"
     },
     "backend": {
-      "rootDirectory": "backend",
-      "entrypoint": "main.py",
+      "entrypoint": "backend/main.py",
       "runtime": "python3.12",
       "routePrefix": "/api"
     }
