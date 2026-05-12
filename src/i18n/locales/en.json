@@ -1,0 +1,136 @@
+{
+  "app": {
+    "title": "EcoPlan Hub",
+    "subtitle": "Expense Planning"
+  },
+  "nav": {
+    "calculation": "Calculation",
+    "planFact": "Plan vs Fact",
+    "scenarios": "Scenarios",
+    "claims": "Claims",
+    "executive": "Executive",
+    "reports": "Reports",
+    "analytics": "Analytics",
+    "audit": "Audit Log",
+    "settings": "Settings",
+    "map": "Route Map",
+    "train3d": "3D Train",
+    "digitalTwin": "Digital Twin",
+    "alerts": "Alerts",
+    "logout": "Logout"
+  },
+  "roles": {
+    "manager": "Manager",
+    "analyst": "Analyst",
+    "director": "Director",
+    "checker": "Controller (RMO)",
+    "admin_nsi": "NSI Administrator"
+  },
+  "dashboard": {
+    "summary": "Summary Metrics",
+    "totalRevenue": "Total Revenue",
+    "totalExpenses": "Total Expenses",
+    "profit": "Profit",
+    "loss": "Loss",
+    "avgMargin": "Average Margin",
+    "profitableTrips": "Profitable Trips",
+    "unprofitableTrips": "Unprofitable Trips",
+    "byBranch": "By Branch",
+    "drillDown": "Drill Down",
+    "trafficLight": {
+      "green": "On Track",
+      "yellow": "Attention Required",
+      "red": "Critical Deviation"
+    }
+  },
+  "alerts": {
+    "title": "Smart Alerts",
+    "anomalyDetected": "Anomaly Detected",
+    "expenseExceeded": "Expenses Exceeded Plan",
+    "lossStreak": "Train Operating at Loss",
+    "markRead": "Mark as Read",
+    "critical": "Critical",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "scenarios": {
+    "title": "Scenario Modeling",
+    "whatIf": "What If",
+    "baseline": "Baseline",
+    "comparison": "Scenario Comparison",
+    "wagonCount": "Wagon Count",
+    "passengers": "Passengers",
+    "ticketPrice": "Ticket Price",
+    "subsidy": "Subsidy",
+    "fuelPrice": "Fuel Price",
+    "expensesChange": "Expenses Change",
+    "profitChange": "Profit Change"
+  },
+  "map": {
+    "title": "Financial Route Map",
+    "profitRoute": "Profitable Route",
+    "lossRoute": "Loss Route",
+    "stationExpenses": "Station Expenses",
+    "filterByBranch": "Filter by Branch"
+  },
+  "reports": {
+    "title": "Reports",
+    "generatePdf": "Generate PDF",
+    "sendEmail": "Send via Email",
+    "full": "Full",
+    "cost": "Cost",
+    "executive": "Executive"
+  },
+  "route": {
+    "create": "Create Route",
+    "search": "Search by train number",
+    "searchPlaceholder": "e.g. 001, 083...",
+    "searchBtn": "Search",
+    "notFound": "Train not found in system",
+    "manual": "or manually",
+    "number": "Train number",
+    "routeName": "Route",
+    "from": "From",
+    "to": "To",
+    "duration": "Duration (hours)",
+    "distance": "Distance (km)",
+    "trainType": "Train type",
+    "routeType": "Route type",
+    "stations": "Stations",
+    "addStation": "Add station",
+    "save": "Save route",
+    "cancel": "Cancel",
+    "standard": "Standard",
+    "talgo": "Talgo",
+    "commercial": "Commercial",
+    "social": "Social",
+    "international": "International"
+  },
+  "audit": {
+    "title": "Audit Log",
+    "immutable": "Immutable Log",
+    "blockchain": "Blockchain Hash",
+    "hashChain": "Hash Chain",
+    "verified": "Verified"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "forecast": "3-Month Forecast",
+    "trends": "Trends",
+    "optimization": "Optimization",
+    "confidenceInterval": "Confidence Interval",
+    "forecastMethod": "Forecast Method: Linear Regression"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "close": "Close",
+    "search": "Search",
+    "all": "All",
+    "details": "Details",
+    "currency": "KZT",
+    "date": "Date",
+    "status": "Status"
+  }
+}

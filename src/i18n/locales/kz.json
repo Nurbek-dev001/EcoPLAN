@@ -1,0 +1,136 @@
+{
+  "app": {
+    "title": "EcoPlan Hub",
+    "subtitle": "Шығындарды жоспарлау"
+  },
+  "nav": {
+    "calculation": "Есеп",
+    "planFact": "Жоспар vs Факт",
+    "scenarios": "Сценарийлер",
+    "claims": "Шағымдар",
+    "executive": "Басшылық",
+    "reports": "Есептер",
+    "analytics": "Аналитика",
+    "audit": "Audit Log",
+    "settings": "Баптаулар",
+    "map": "Маршруттар картасы",
+    "train3d": "3D Пойыз",
+    "digitalTwin": "Digital Twin",
+    "alerts": "Хабарламалар",
+    "logout": "Шығу"
+  },
+  "roles": {
+    "manager": "Менеджер",
+    "analyst": "Аналитик",
+    "director": "Басшылық",
+    "checker": "Тексеруші (РМО)",
+    "admin_nsi": "НСИ Әкімшісі"
+  },
+  "dashboard": {
+    "summary": "Жиынтық көрсеткіштер",
+    "totalRevenue": "Жалпы кірістер",
+    "totalExpenses": "Жалпы шығындар",
+    "profit": "Пайда",
+    "loss": "Зиян",
+    "avgMargin": "Орташа рентабельділік",
+    "profitableTrips": "Пайдалы рейстер",
+    "unprofitableTrips": "Зиянды рейстер",
+    "byBranch": "Филиалдар бойынша",
+    "drillDown": "Толықтыру",
+    "trafficLight": {
+      "green": "Нормада",
+      "yellow": "Назар аудару керек",
+      "red": "Өте маңызды ауытқу"
+    }
+  },
+  "alerts": {
+    "title": "Ақылды хабарламалар",
+    "anomalyDetected": "Аномалия анықталды",
+    "expenseExceeded": "Шығындар жоспардан асты",
+    "lossStreak": "Поезд зиянмен жұмыс істейді",
+    "markRead": "Оқылған деп белгілеу",
+    "critical": "Өте маңызды",
+    "warning": "Ескерту",
+    "info": "Ақпарат"
+  },
+  "scenarios": {
+    "title": "Сценарийлік модельдеу",
+    "whatIf": "Егер",
+    "baseline": "Негізгі есеп",
+    "comparison": "Сценарийлерді салыстыру",
+    "wagonCount": "Вагондар саны",
+    "passengers": "Жолаушылар",
+    "ticketPrice": "Билет бағасы",
+    "subsidy": "Субсидия",
+    "fuelPrice": "Отын бағасы",
+    "expensesChange": "Шығындар өзгерісі",
+    "profitChange": "Пайда өзгерісі"
+  },
+  "map": {
+    "title": "Қаржылық маршруттар картасы",
+    "profitRoute": "Пайдалы маршрут",
+    "lossRoute": "Зиянды маршрут",
+    "stationExpenses": "Станция шығындары",
+    "filterByBranch": "Филиал бойынша сүзгі"
+  },
+  "reports": {
+    "title": "Есептер",
+    "generatePdf": "PDF жасау",
+    "sendEmail": "Email жіберу",
+    "full": "Толық",
+    "cost": "Өзіндік құн",
+    "executive": "Басшылық"
+  },
+  "route": {
+    "create": "Маршрут жасау",
+    "search": "Пойыз нөмірі бойынша іздеу",
+    "searchPlaceholder": "Мысалы: 001, 083...",
+    "searchBtn": "Табу",
+    "notFound": "Жүйеде пойыз табылмады",
+    "manual": "немесе қолмен",
+    "number": "Пойыз нөмірі",
+    "routeName": "Маршрут",
+    "from": "Қайдан",
+    "to": "Қайда",
+    "duration": "Жол уақыты (сағ)",
+    "distance": "Қашықтық (км)",
+    "trainType": "Пойыз түрі",
+    "routeType": "Маршрут түрі",
+    "stations": "Станциялар",
+    "addStation": "Станция қосу",
+    "save": "Маршрутты сақтау",
+    "cancel": "Бас тарту",
+    "standard": "Стандартты",
+    "talgo": "Talgo",
+    "commercial": "Коммерциялық",
+    "social": "Әлеуметтік",
+    "international": "Халықаралық"
+  },
+  "audit": {
+    "title": "Аудит журналы",
+    "immutable": "Өзгертуге болмайтын лог",
+    "blockchain": "Blockchain хэші",
+    "hashChain": "Хэш тізбегі",
+    "verified": "Тексерілді"
+  },
+  "analytics": {
+    "title": "Аналитика",
+    "forecast": "3 айға болжам",
+    "trends": "Трендтер",
+    "optimization": "Оптимизация",
+    "confidenceInterval": "Сенім интервалы",
+    "forecastMethod": "Болжам әдісі: сызықтық регрессия"
+  },
+  "common": {
+    "save": "Сақтау",
+    "cancel": "Бас тарту",
+    "apply": "Қолдану",
+    "close": "Жабу",
+    "search": "Іздеу",
+    "all": "Барлығы",
+    "details": "Толығырақ",
+    "currency": "тг",
+    "date": "Күні",
+    "status": "Күйі"
+  }
+}

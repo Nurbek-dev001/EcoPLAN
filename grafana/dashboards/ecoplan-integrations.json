@@ -1,0 +1,63 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "EcoPlan Integrations Health",
+    "tags": ["integrations", "ecoplan"],
+    "timezone": "Asia/Almaty",
+    "schemaVersion": 36,
+    "panels": [
+      {
+        "id": 1,
+        "title": "PassFlow API Latency",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "passflow_request_duration_seconds",
+            "legendFormat": "Latency"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+      },
+      {
+        "id": 2,
+        "title": "1C Export Success Rate",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "rate(accounting_1c_exports_total[5m])",
+            "legendFormat": "Exports/min"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}
+      },
+      {
+        "id": 3,
+        "title": "Kafka Message Throughput",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "rate(kafka_messages_produced_total[5m])",
+            "legendFormat": "Produced"
+          },
+          {
+            "expr": "rate(kafka_messages_consumed_total[5m])",
+            "legendFormat": "Consumed"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8}
+      },
+      {
+        "id": 4,
+        "title": "ClickHouse Sync Lag",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "clickhouse_sync_lag_seconds",
+            "legendFormat": "Lag"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8}
+      }
+    ]
+  }
+}

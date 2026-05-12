@@ -1,0 +1,136 @@
+{
+  "app": {
+    "title": "EcoPlan Hub",
+    "subtitle": "Планирование расходов"
+  },
+  "nav": {
+    "calculation": "Расчёт",
+    "planFact": "План vs Факт",
+    "scenarios": "Сценарии",
+    "claims": "Претензии",
+    "executive": "Руководство",
+    "reports": "Отчёты",
+    "analytics": "Аналитика",
+    "audit": "Audit Log",
+    "settings": "Настройки",
+    "map": "Карта маршрутов",
+    "train3d": "3D Поезд",
+    "digitalTwin": "Digital Twin",
+    "alerts": "Уведомления",
+    "logout": "Выйти"
+  },
+  "roles": {
+    "manager": "Менеджер",
+    "analyst": "Аналитик",
+    "director": "Руководство",
+    "checker": "Контролер (РМО)",
+    "admin_nsi": "Администратор НСИ"
+  },
+  "dashboard": {
+    "summary": "Сводные показатели",
+    "totalRevenue": "Доходы всего",
+    "totalExpenses": "Расходы всего",
+    "profit": "Прибыль",
+    "loss": "Убыток",
+    "avgMargin": "Средняя рентабельность",
+    "profitableTrips": "Прибыльных рейсов",
+    "unprofitableTrips": "Убыточных рейсов",
+    "byBranch": "По филиалам",
+    "drillDown": "Детализация",
+    "trafficLight": {
+      "green": "В норме",
+      "yellow": "Требует внимания",
+      "red": "Критическое отклонение"
+    }
+  },
+  "alerts": {
+    "title": "Умные уведомления",
+    "anomalyDetected": "Обнаружена аномалия",
+    "expenseExceeded": "Расходы превысили план",
+    "lossStreak": "Поезд работает с убытком",
+    "markRead": "Отметить прочитанным",
+    "critical": "Критическое",
+    "warning": "Предупреждение",
+    "info": "Информация"
+  },
+  "scenarios": {
+    "title": "Сценарное моделирование",
+    "whatIf": "Что если",
+    "baseline": "Базовый расчёт",
+    "comparison": "Сравнение сценариев",
+    "wagonCount": "Количество вагонов",
+    "passengers": "Пассажиры",
+    "ticketPrice": "Цена билета",
+    "subsidy": "Субсидия",
+    "fuelPrice": "Цена топлива",
+    "expensesChange": "Изменение расходов",
+    "profitChange": "Изменение прибыли"
+  },
+  "map": {
+    "title": "Карта финансовых маршрутов",
+    "profitRoute": "Прибыльный маршрут",
+    "lossRoute": "Убыточный маршрут",
+    "stationExpenses": "Расходы на станции",
+    "filterByBranch": "Фильтр по филиалу"
+  },
+  "reports": {
+    "title": "Отчёты",
+    "generatePdf": "Сгенерировать PDF",
+    "sendEmail": "Отправить на email",
+    "full": "Полный",
+    "cost": "Себестоимость",
+    "executive": "Руководство"
+  },
+  "route": {
+    "create": "Создать маршрут",
+    "search": "Поиск по номеру поезда",
+    "searchPlaceholder": "Например: 001, 083...",
+    "searchBtn": "Найти",
+    "notFound": "Поезд не найден в системе",
+    "manual": "или вручную",
+    "number": "Номер поезда",
+    "routeName": "Маршрут",
+    "from": "Откуда",
+    "to": "Куда",
+    "duration": "Время в пути (ч)",
+    "distance": "Расстояние (км)",
+    "trainType": "Тип поезда",
+    "routeType": "Тип маршрута",
+    "stations": "Станции",
+    "addStation": "Добавить станцию",
+    "save": "Сохранить маршрут",
+    "cancel": "Отмена",
+    "standard": "Стандартный",
+    "talgo": "Talgo",
+    "commercial": "Коммерческий",
+    "social": "Социальный",
+    "international": "Международный"
+  },
+  "audit": {
+    "title": "Журнал аудита",
+    "immutable": "Нередактируемый лог",
+    "blockchain": "Blockchain хеш",
+    "hashChain": "Цепочка хешей",
+    "verified": "Верифицировано"
+  },
+  "analytics": {
+    "title": "Аналитика",
+    "forecast": "Прогноз на 3 месяца",
+    "trends": "Тренды",
+    "optimization": "Оптимизация",
+    "confidenceInterval": "Доверительный интервал",
+    "forecastMethod": "Метод прогнозирования: линейная регрессия"
+  },
+  "common": {
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "apply": "Применить",
+    "close": "Закрыть",
+    "search": "Поиск",
+    "all": "Все",
+    "details": "Подробнее",
+    "currency": "тг",
+    "date": "Дата",
+    "status": "Статус"
+  }
+}

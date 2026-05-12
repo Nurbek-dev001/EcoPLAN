@@ -1,0 +1,63 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "EcoPlan Business KPI",
+    "tags": ["business", "ecoplan"],
+    "timezone": "Asia/Almaty",
+    "schemaVersion": 36,
+    "panels": [
+      {
+        "id": 1,
+        "title": "Profit Margin by Branch",
+        "type": "bargauge",
+        "targets": [
+          {
+            "expr": "avg(profit_margin) by (branch)",
+            "legendFormat": "{{branch}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+      },
+      {
+        "id": 2,
+        "title": "Total Expenses vs Revenue",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "sum(total_expenses)",
+            "legendFormat": "Expenses"
+          },
+          {
+            "expr": "sum(total_revenue)",
+            "legendFormat": "Revenue"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}
+      },
+      {
+        "id": 3,
+        "title": "Occupancy Rate",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "avg(occupancy_rate)",
+            "legendFormat": "Occupancy"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8}
+      },
+      {
+        "id": 4,
+        "title": "Cost per Wagon",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "avg(cost_per_wagon)",
+            "legendFormat": "Cost/Wagon"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8}
+      }
+    ]
+  }
+}
