@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/index.py": {
+    "backend/main.py": {
       "runtime": "python3.11"
     }
   }

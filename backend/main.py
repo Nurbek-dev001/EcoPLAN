@@ -1,13 +1,9 @@
 from app.main import app
 
 # For Vercel serverless
-from fastapi.middleware.wsgi import WSGIMiddleware
+from mangum import Mangum
 
-# If needed, but for FastAPI, better to use ASGI
-# But Vercel supports ASGI with api/index.py
-
-# Actually, for Vercel, better to move to api/ directory
-# But following user's instructions, create main.py here
+handler = Mangum(app)
 
 if __name__ == "__main__":
     import uvicorn
