@@ -1,13 +1,7 @@
 {
-  "experimentalServices": {
-    "frontend": {
-      "framework": "vite",
-      "routePrefix": "/"
-    },
-    "backend": {
-      "entrypoint": "backend/main.py",
-      "runtime": "python3.11",
-      "routePrefix": "/api"
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.11"
     }
   }
 }
